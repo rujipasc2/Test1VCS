@@ -9,4 +9,7 @@ sys.path.append(cwd)
 
 #test the module: generate_list
 from generate_list import printIt
-printIt()
+
+for x in range(0,999):
+    #running until error occurs
+    printIt()
